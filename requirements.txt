@@ -1,0 +1,25 @@
+# Core dependencies for text simplification project
+# CIS 5300 Term Project
+
+# Data handling
+pandas>=1.5.0
+
+# Deep learning framework
+torch>=2.0.0
+
+# Transformers and NLP models
+transformers>=4.30.0
+
+# HuggingFace datasets (for loading WikiLarge dataset)
+huggingface_hub>=0.15.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Jupyter notebook support (optional, for running notebooks)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
