@@ -6,6 +6,10 @@ This folder contains model predictions on the **test split**, plus the gold labe
 - `output/t5-simplification/<25|50|75|100>/predictions.txt`: baseline predictions
 - `output/t5-simplification-2/<25|50|75|100>/predictions.txt`: Extension 3 predictions
 - `output/aligned_<25|50|75|100>.tsv`: source/ref/preds table per completion ratio
+
+## Data
+The data here is generated from the evaluation notebook in the `code/` folder. You can re-generate it by running the notebook all the way through and saving the output to the `output/` folder. Extraneous data has been removed for cleanliness.
+
 ## How to score (SARI)
 Run from the repo root:
 ```bash
