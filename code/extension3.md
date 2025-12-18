@@ -8,6 +8,7 @@ Example Usage:
 
 Upload `extension3.ipynb` to Google Colab and set the runtime to A100 GPU (or TPU). In the Colab file browser, upload:
 
+- `data/` (the full folder from this repo)
 - `t5-simplification.zip`
 - `t5-simplification-2.zip`
 - `score.py`

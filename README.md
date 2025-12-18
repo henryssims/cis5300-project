@@ -4,7 +4,10 @@ Authors: Zora Mardjoko, Henry Sims, George Xue, Christopher Wun
 Summary:
 This project trains and evaluates two T5-based simplification models and several “extension” settings, then compares quality (SARI) and latency across incremental completion ratios (25%, 50%, 75%, 100%).
 
-What to run to train and evaluate the two models:
+Colab note:
+When running any notebook in Colab, upload the `data/` folder from this repo (it contains `train.csv`, `dev.csv`, and `test.csv`).
+
+What to run to train and evaluate the two models (note that each notebook also has its own README file with more detailed instructions):
 
 1) Train the baseline model (writes `t5-simplification/`)
 

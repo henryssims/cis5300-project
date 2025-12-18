@@ -8,3 +8,5 @@ https://drive.google.com/file/d/1Souaej0KMwFtTfW21_ROwjIrk6WUBI0U/view?usp=shari
 
 Then upload the zip file to the Google Colab files and run the next cell to unzip it. To test the results for both the baseline and with
 the extension applied, run the remaining cells.
+
+Note: When running in Colab, you also need to upload the `data/` folder from this repo (it contains `train.csv`, `dev.csv`, and `test.csv`).
