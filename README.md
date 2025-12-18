@@ -31,12 +31,7 @@ What to run to train and evaluate the two models (note that each notebook also h
   - Extension 3 (arch, fixed)
   - Extension 3 + beam-techniques
 
-- Colab: upload and run `code/comparison.ipynb` all the way through. It will output the SARI score results to the console and also save the model to `t5-simplification-2/` while comparing the results of the baseline and extension 3 (encoder adapter) against extension 1 (adaptive length penalty) and extension 2 (adaptive decoding). You can also just plug in the weights we got from the previous steps and run the notebook to get the plots. Note that everything must be run on A100 for the results to be consistent with ours. It will output the plots to the console.
-
-- `code/comparison_plots_only.ipynb` is plotting-only. It reads the `PRECOMPUTED` dict near the top of the notebook, which were the results we got from the previous runs of the other notebooks.
-  - If you rerun experiments and get new numbers in `comparison.ipynb` (or directly from `extension2.ipynb` / `extension3.ipynb`), copy those SARI/KEEP/DELETE/ADD/latency_ms values into the matching entries in `PRECOMPUTED`, then rerun the plotting notebook to get new plots.
-
-- Colab: upload and run `code/comparison_plots_only.ipynb` all the way through. It will output the plots to the console. It does not require any weights to be run.
+- Colab: upload and run `code/comparison.ipynb` all the way through. It will output the SARI score results to the console and also save the model to `t5-simplification-2/` while comparing the results of the baseline and extension 3 (encoder adapter) against extension 1 (adaptive length penalty) and extension 2 (adaptive decoding). You can also just plug in the weights we got from the previous steps and run the notebook to get the plots. Note that this must be run on Mac M3 chip for the results to be consistent with ours. It will output the plots to the console.
 
 If you want to run with the weights we got, you can download the zip files from the following Google Drive links:
 - `t5-simplification.zip`: https://drive.google.com/file/d/1Souaej0KMwFtTfW21_ROwjIrk6WUBI0U/view?usp=sharing
